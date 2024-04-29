@@ -58,7 +58,7 @@ const Agenda = () => {
   };
 
   return (
-    <div className="flex flex-col items-start w-[1040px] gap-[40px]">
+    <div className="flex flex-col items-start w-[1040px] gap-[40px] text-[#222]">
       <span className="font-semibold text-3xl">詳細日程 Agenda</span>
       <div className="flex gap-4">
         {['前置 D1', '前置 D2', '正式 D1', '正式 D2', '正式 D3', '正式 D4'].map((label, index) => (
@@ -86,7 +86,7 @@ const Agenda = () => {
             //   backgroundPosition: 'center', 
             // }}
           > 
-            <div className='w-[292px] h-[276px] flex flex-col bg-[#D9D9D9]/25 rounded-2xl px-7 py-5'> 
+            <div className='w-[292px] h-[276px] flex flex-col bg-[#D9D9D9]/25 rounded-2xl px-7 py-5 text-[#222]'> 
               <span className="font-medium text-2xl">{agenda.title}</span>
               <span className="text-base">{agenda.date}</span>
               <ul className="list-disc pl-6">

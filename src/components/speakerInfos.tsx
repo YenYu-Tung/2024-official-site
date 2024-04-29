@@ -11,7 +11,7 @@ const speakersData = [
 
 const SpeakerInfo = () => {
   return (
-    <div className="flex flex-col items-start w-[1040px] gap-[40px]">
+    <div className="flex flex-col items-start w-[1040px] gap-[40px] text-[#222]">
       <span className="font-semibold text-3xl">講者資訊</span>
       <div className="flex gap-5">
         {speakersData.map((speaker, index) => {

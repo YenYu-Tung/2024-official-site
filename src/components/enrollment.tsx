@@ -7,7 +7,7 @@ const Enrollment = () => {
     <>
       <div className="flex flex-col items-start w-[1040px] gap-[100px]">
         <div className="relative flex flex-col gap-[40px]">
-          <span className='font-semibold text-3xl'>報名資訊</span>
+          <span className='font-semibold text-3xl text-[#222]'>報名資訊</span>
           <div
             className={clsx(
               'h-[687px] w-[1040px] rounded-[50%] z-10 flex justify-center items-center',
