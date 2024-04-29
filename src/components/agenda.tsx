@@ -80,11 +80,11 @@ const Agenda = () => {
         {agendaDatas.map((agenda, index) => (
           <Card key={index} 
             className="w-[347px] h-[385px] px-7 py-6 flex-shrink-0 justify-between rounded-3xl" 
-            // style={{
-            //   backgroundImage: 'url(/card.svg)', 
-            //   backgroundSize: 'cover', 
-            //   backgroundPosition: 'center', 
-            // }}
+            style={{
+              backgroundImage: 'url(/card.png)', 
+              backgroundSize: 'cover', 
+              backgroundPosition: 'center', 
+            }}
           > 
             <div className='w-[292px] h-[276px] flex flex-col bg-[#D9D9D9]/25 rounded-2xl px-7 py-5 text-[#222]'> 
               <span className="font-medium text-2xl">{agenda.title}</span>
@@ -95,9 +95,9 @@ const Agenda = () => {
                 ))}
               </ul>
             </div>
-            <Button radius="full" size="lg" className="bg-[#E9E9E9] text-[#222] text-xl font-semibold">
+            {/* <Button radius="full" size="lg" className="bg-[#E9E9E9] text-[#222] text-xl font-semibold">
               詳細日程表
-            </Button>
+            </Button> */}
           </Card>
         ))}
       </div>
