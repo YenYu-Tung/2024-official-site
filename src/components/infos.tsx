@@ -11,7 +11,7 @@ const Infos = () => {
           className={clsx(
             'h-[384px] w-[1040px] rounded-[50%] z-10 flex justify-center items-center',
           )}
-          style={{ backgroundImage: 'radial-gradient(ellipse at center, rgba(255,255,255,1) 12%, rgba(202,217,223,1) 35%, rgba(242,212,205,1) 55%, rgba(255,255,255,0.5) 70%)' }}
+          style={{ backgroundImage: 'radial-gradient(ellipse at center, rgba(255,255,255,1) 12%, rgba(202,217,223,1) 35%, rgba(242,212,205,0.9) 55%, rgba(255,255,255,0.5) 70%)' }}
         >
           <div className="w-[864px] h-[160px] relative text-[#222] text-xl text-center">
             <span>本活動希望以推廣 HCI 為主要宗旨，招收工程、設計及跨領域背景的學生，共同學習並進行跨領域的合作，探索人類生活空間中與周遭環境、物件或工具的互動模式。為期六天的工作坊，期盼參與者能根據主題體察其日常經驗裡的互動缺口或議題，實際動手解決問題或創造出新的意義，進而尋思更和諧的人機互動遠景。</span>
@@ -24,7 +24,7 @@ const Infos = () => {
           className={clsx(
             'h-[515px] w-[1040px] rounded-[50%] z-10 flex justify-center items-center',
           )}
-          style={{ backgroundImage: 'radial-gradient(ellipse at center, rgba(255,255,255,1) 12%, rgba(202,217,223,1) 35%, rgba(242,212,205,1) 55%, rgba(255,255,255,0.5) 70%)' }}
+          style={{ backgroundImage: 'radial-gradient(ellipse at center, rgba(255,255,255,1) 12%, rgba(202,217,223,1) 35%, rgba(242,212,205,0.85) 55%, rgba(255,255,255,0.5) 70%)' }}
         >
           <div className="flex flex-col w-[864px] h-[425px] relative text-[#222] text-xl gap-5">
             <div className='flex flex-col gap-3'>

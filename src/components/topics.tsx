@@ -25,9 +25,9 @@ const Topics = () => {
         <span className="font-semibold text-3xl">What is Resilience?</span>
         <div
           className={clsx(
-            'h-[384px] w-[1040px] rounded-[50%] z-10 flex justify-center items-center bg-white/50',
+            'h-[384px] w-[1040px] rounded-[50%] z-10 flex justify-center items-center bg-white/30',
           )}
-          style={{ backgroundImage: 'radial-gradient(ellipse at center, rgba(255,255,255,1) 12%, rgba(242,212,205,1) 30%, rgba(202,217,223,1) 50%, rgba(255,255,255,0.6) 100%)' }}
+          style={{ backgroundImage: 'radial-gradient(ellipse at center, rgba(255,255,255,1) 12%, rgba(242,212,205,1) 30%, rgba(202,217,223,0.4) 55%, rgba(255,255,255,0.9) 100%)' }}
         >
           <div className="w-[866px] h-[180px] relative text-[#222] text-xl text-center">
             <span className='font-semibold'>「Resilience，象徵著適應力、韌性、彈性。在新興科技大量衝擊的年代，人性為最不可或缺的關鍵。」 </span>
@@ -40,9 +40,9 @@ const Topics = () => {
           <span className="font-semibold text-3xl">{topic.title}</span>
           <div
             className={clsx(
-              'w-[1040px] h-[384px] rounded-[50%] z-10 flex justify-center items-center',
+              'w-[1040px] h-[384px] rounded-[50%] z-10 flex justify-center items-center bg-white/30',
             )}
-            style={{ backgroundImage: 'radial-gradient(ellipse at center, rgba(255,255,255,1) 12%, rgba(242,212,205,1) 30%, rgba(202,217,223,1) 50%, rgba(255,255,255,0.6) 100%)' }}
+            style={{ backgroundImage: 'radial-gradient(ellipse at center, rgba(255,255,255,1) 12%, rgba(242,212,205,1) 30%, rgba(202,217,223,0.4) 55%, rgba(255,255,255,0.9) 100%)' }}
           >
             <div className="w-[866px] h-[140px] relative text-[#222] text-xl text-center">
               <span>{topic.info}</span>
