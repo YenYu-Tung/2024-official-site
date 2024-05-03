@@ -11,8 +11,8 @@ const speakersData = [
 
 const SpeakerInfo = () => {
   return (
-    <div className="flex flex-col items-start w-[1040px] gap-[40px] text-[#222]">
-      <span className="font-semibold text-3xl">講者資訊</span>
+    <div className="flex flex-col items-start w-[390px] xl:w-[1040px] gap-[22px] xl:gap-[40px] text-[#222] overflow-auto">
+      <span className="font-semibold text-md xl:text-3xl">講者資訊</span>
       <div className="flex gap-5">
         {speakersData.map((speaker, index) => {
           const gradientStyle = index % 2 !== 0
@@ -23,15 +23,15 @@ const SpeakerInfo = () => {
             <div key={index} className="flex flex-col">
               <div
                 className={clsx(
-                  'w-[245px] h-[245px] mb-[20px] rounded-2xl',
+                  'w-[136px] xl:w-[245px] h-[136px] xl:h-[245px] mb-[11px] xl:mb-[20px] rounded-lg xl:rounded-2xl',
                   'bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))]',
                   gradientStyle
                 )}
               ></div>
               <div className="flex flex-col gap-1">
-                <span className="font-medium text-xl">姓名 {speaker.name}</span>
-                <span className="text-base">學校 科系 {speaker.info}</span>
-                <span className="text-base">職稱 {speaker.position}</span>
+                <span className="font-medium text-xs xl:text-xl">姓名 {speaker.name}</span>
+                <span className="text-xxs xl:text-base">學校 科系 {speaker.info}</span>
+                <span className="text-xxs xl:text-base">職稱 {speaker.position}</span>
               </div>
             </div>
           );

@@ -19,17 +19,17 @@ const topicsData = [
 
 const Topics = () => {
   return (
-    <div className="flex flex-col items-start w-[1040px] gap-[100px] text-[#222]">
+    <div className="flex flex-col items-start w-[390px] xl:w-[1040px] gap-[55px] xl:gap-[100px] text-[#222]">
       <div className="relative flex flex-col">
-        <span className='font-semibold text-3xl mb-[40px]'>主題介紹</span>
-        <span className="font-semibold text-3xl">What is Resilience?</span>
+        <span className='font-semibold text-md xl:text-3xl mb-[22px] xl:mb-[40px]'>主題介紹</span>
+        <span className="font-semibold text-md xl:text-3xl">What is Resilience?</span>
         <div
           className={clsx(
-            'h-[384px] w-[1040px] rounded-[50%] z-10 flex justify-center items-center bg-white/30',
+            'h-[270px] xl:h-[384px] w-[390px] xl:w-[1040px] rounded-[50%] z-10 flex justify-center items-center bg-white/30',
           )}
           style={{ backgroundImage: 'radial-gradient(ellipse at center, rgba(255,255,255,1) 12%, rgba(242,212,205,1) 30%, rgba(202,217,223,0.4) 55%, rgba(255,255,255,0.9) 100%)' }}
         >
-          <div className="w-[866px] h-[180px] relative text-xl text-center">
+          <div className="h-[154px] xl:h-[180px] w-[284px] xl:w-[866px] relative text-xs xl:text-xl text-center">
             <span className='font-semibold'>「Resilience，象徵著適應力、韌性、彈性。在新興科技大量衝擊的年代，人性為最不可或缺的關鍵。」 </span>
             <span>Resilience 的適應、彈性，在科技浪潮襲捲而來的時代愈顯其珍貴，科技不僅為我們所用，更與我們共生共榮。延展實境和人工智慧崛起，讓我們再次看見科技回歸以人為本的價值，相信人性即使面臨挑戰，依然會在這充滿未知的時代裡尋求共榮的未來。</span>
           </div>
@@ -37,14 +37,14 @@ const Topics = () => {
       </div>
       {topicsData.map((topic, index) => (
         <div key={index} className="flex flex-col">
-          <span className="font-semibold text-3xl">{topic.title}</span>
+          <span className="font-semibold text-md xl:text-3xl">{topic.title}</span>
           <div
             className={clsx(
-              'w-[1040px] h-[384px] rounded-[50%] z-10 flex justify-center items-center bg-white/30',
+              'h-[263px] xl:h-[384px] w-[390px] xl:w-[1040px] rounded-[50%] z-10 flex justify-center items-center bg-white/30',
             )}
             style={{ backgroundImage: 'radial-gradient(ellipse at center, rgba(255,255,255,1) 12%, rgba(242,212,205,1) 30%, rgba(202,217,223,0.4) 55%, rgba(255,255,255,0.9) 100%)' }}
           >
-            <div className="w-[866px] h-[140px] relative text-xl text-center">
+            <div className="h-[110px] xl:h-[180px] w-[284px] xl:w-[866px] relative text-xs xl:text-xl text-center">
               <span>{topic.info}</span>
             </div>
           </div>

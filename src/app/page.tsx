@@ -6,7 +6,7 @@ import Enrollment from "../components/enrollment";
 
 export default function Home() {
   return (
-    <main className="w-full flex flex-col items-center py-4 gap-[100px] bg-[#94A2AB]">
+    <main className="w-full flex flex-col items-center py-4 gap-[55px] xl:gap-[100px] bg-[#94A2AB]">
       <Topics />
       <SpeakerInfo />
       <Infos />
