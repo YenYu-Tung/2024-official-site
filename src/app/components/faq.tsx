@@ -21,14 +21,14 @@ export default function FAQ({ marginBotton } : Props) {
                 <h1 className='text-3xl font-bold mb-5'>FAQ</h1>
                 <h3 className='text-xl font-bold mb-5'>報名常見問題</h3>
                 <div className='flex justify-center'>
-                    <Image src={FaqM1} alt='faq_m_q1' className='md:hidden' />
-                    <Image src={FaqD1} alt='faq_d_q1' className='hidden md:block' />
+                    <Image src={FaqM1} alt='faq_m_q1' width={300} height={300} className='md:hidden w-auto h-auto' />
+                    <Image src={FaqD1} alt='faq_d_q1' width={300} height={300} className='hidden md:block w-auto h-auto' />
                 </div>
             </div>
             <h3 className='text-xl font-bold mb-5'>ID Card 常見問題</h3>
             <div className='flex justify-center'>
-                <Image src={FaqM4} alt='faq_m_q1' className='md:hidden' />
-                <Image src={FaqD4} alt='faq_d_q4' className='hidden md:block' />
+                <Image src={FaqM4} alt='faq_m_q1' width={300} height={300} className='md:hidden w-auto h-auto' />
+                <Image src={FaqD4} alt='faq_d_q4' width={300} height={300} className='hidden md:block w-auto h-auto' />
             </div>
         </div>
     )
